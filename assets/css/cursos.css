@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+main h1 {
+    color: #FF4081;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 81px 0px 5px 82px;
+    text-transform: capitalize;
+}
+
+main h3 {
+    color: #555555;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 82px;
+}
+
+main hr {
+    background: #C4C4C4;
+    width: 1244px;
+    height: 5px;
+    list-style: none;
+    border: none;
+}
+
+.artigo {
+    display: flex;
+}
+
+.artigo img {
+    margin: 95px 0 68px 112px;
+}
+
+.artigo article {
+    text-align: justify;
+    margin-left: 53px;
+}
+
+.artigo article h2 {
+    color: #FF4081;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 37px;
+    margin-top: 108px;
+}
+
+.artigo article p {
+    color: #000000;
+    line-height: 21px;
+    font-weight: 300;
+    font-size: 18px;
+    width: 724px;
+    height: 105px;
+}
+
+#primeiro button {
+    margin-top: 53px;
+    width: 233px;
+    height: 51px;
+    background: #419488;
+    border-radius: 62px;
+    border-style: none;
+    color:#fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+#segundo button {
+    margin-top: 70px;
+    width: 233px;
+    height: 51px;
+    background: #419488;
+    border-radius: 62px;
+    border-style: none;
+    color:#fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+#terceiro button {
+    margin-top: 26px;
+    width: 233px;
+    height: 51px;
+    background: #419488;
+    border-radius: 62px;
+    border-style: none;
+    color:#fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+#primeiro button a,
+#segundo button a,
+#terceiro button a {
+    color:#fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #419488;
+    padding: 50px 0;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer section nav ul li a {
+    padding-left: 40px;
+    color: #fdfdfd;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+footer section nav ul li a:hover {
+    color: #eee4e4;
+    text-decoration: underline;
+    transition: all .5s;
+}
+
+footer section div div {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 15px 75px;
+    margin-bottom: 15px;
+}
+
+footer section div a {
+    color: #fdfdfd;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+footer section div div:nth-child(1){
+    margin-bottom: 15px;
+}
+
+ /* LAPTOP */
+ @media only screen and (min-width: 769px) and (max-width: 1300px) {
+    /* HEADER */
+    header {
+      padding: 30px;
+    }
+    header img{
+      width: 20%;
+    }
+  
+    /* FOOTER */ 
+    footer {
+      padding: 20px;
+    }
+    footer img {
+      width: 20%;
+    }
+    footer section div a {
+      font-size: 16px;
+    }
+    footer section div div {
+      padding: 15px 35px;
+    }
+  }
