@@ -168,6 +168,27 @@ section.we-will-speak h2{
   line-height: 21px;
 }
 
+div.footer-btn {
+  margin-top: 100px;
+  text-align: center;
+}
+
+div.footer-btn a{
+  color: #FF4081;
+  border: 1px solid #FF4081;
+  border-radius: 50px;
+  padding: 10px 41px;
+  text-decoration: none;
+  font-size: 27px;
+  font-weight: 400;
+  transition: all .5s;
+}
+
+div.footer-btn a:hover{
+  background-color: #FF4081;
+  color: white;
+}
+
 /* RESPONSIVE DISPLAYS */
 
 /* MOBILE */
@@ -281,6 +302,16 @@ section.we-will-speak h2{
     font-size: 16px;
     text-align: center;
     padding-top: 20px;
+  }
+
+  div.footer-btn {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  div.footer-btn a{
+    font-size: 16px;
+    padding: 10px 20px;
   }
 }
 
