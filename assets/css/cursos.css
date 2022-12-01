@@ -114,46 +114,54 @@ main hr {
         flex-direction: column;
         align-content: flex-start;
         margin: auto;
+        justify-content: center;
     }
 
     section.artigo article h2 {
-        font-size: 20px;
-        margin: auto;
+        font-size: 18px;
+        padding-right: 40px;
+        margin:auto;
+        text-align: center;
         
     }
     section.artigo article p {
         font-size: 12px;
-        width: 95%;
-        padding-bottom: 20px;
+        width: 85%;
+        padding-bottom: 40px;
         padding-top: 20px;
-        padding-right: 40px;
+        text-align: center;
     }
     section.artigo img {
         width: 50%;
         margin: auto; 
         padding-bottom: 20px;
         padding-top: 20px;
+        align-items: center;
     }
     main h1 {
         margin-top: 20px;
-        margin-left: 30px;
+        margin-left: 20px;
+        text-align: center;
     }
 
-    main h3 {
+    main h3 {   
         margin-left: 20px;
+        text-align: center;
     }
 
     #primeiro button,
     #segundo button,
     #terceiro button {
-        width: 60%;
-        font-size: 15px;
+        width: 50%;
+        font-size: 14px;
+        margin-top: 80px;
+        margin-left: 50px;
     }
 
 
     #terceiro button {
         margin-bottom: 20px;
-        margin-top: 50px;
+        
     }
   }
   
@@ -168,33 +176,37 @@ main hr {
       flex-direction: column;
       align-content: flex-start;
       margin: auto;
+      margin-top: 40px;
     }
 
     section.artigo article h2 {
       font-size: 20px;
       margin: auto;
+      text-align: center;
         
     }
     section.artigo article p {
       font-size: 12px;
       width: 95%;
-      padding-bottom: 20px;
+      padding-bottom: 40px;
       padding-top: 20px;
       padding-right: 40px;
     }
     section.artigo img {
-      width: 50%;
+      width: 40%;
       margin: auto; 
       padding-bottom: 20px;
       padding-top: 20px;
     }
     main h1 {
-      margin-top: 20px;
-      margin-left: 30px;
+     margin:auto;
+     margin-top: 30px;
+    text-align: center;
     }
 
     main h3 {
       margin-left: 20px;
+      text-align: center;
     }
 
     #primeiro button,
