@@ -1,104 +1,56 @@
-#topo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+article.topo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 160px;
+  padding: 50px 0;
 }
 
-#topo article h1 {
-    color: #009688;
-    font-size: 47px;
-    font-weight: 700;
-    line-height: 54px;
-    width: 512px;
-    height: 108px;
-    margin: 122px 74px 40px 100px;
+article.topo .content-topo {
+  margin-right: 312px;
 }
 
-#topo article p {
-    color: #000000;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 23px;
-    width: 461px;
-    height: 110px;
-    margin: 40px 125px 162px 100px;
+article.topo h1{
+  color: #009688;
+  font-size: 47px;
+  font-weight: 700;
 }
 
-main {
-    background:  #E5E5E5;
-    display: flex;
-    padding-bottom: 170px;
+article.topo p{
+  font-size: 20px;
+  color: #000;
+  font-weight: 300;
+  padding-top: 40px;
 }
 
-
-main h2 {
-    color: #FF4081;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 34px;
-    margin-top: 19px;
-    margin-bottom: 19px;
+#second {
+  background-color: #e5e5e5;
+  padding: 110px 0;
 }
 
-main p {
-    color: #000000;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 20px;
-    width: 516px;
-    height: 80px;
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: 
 }
 
-.artigos article a {
-  text-decoration: none;
+.main-content article {
+  width: 518px;
 }
 
-.artigos article {
-    /*display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 109px;*/
-    display: inline-flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-    margin-left: 109px;
-    margin-top: 109px;
+.main-content article h2{
+  font-size: 30px;
+  color: #FF4081;
+  font-weight: 400;
+  padding: 20px 0;
 }
 
-.artigos article img {
-    width: 518px;
-    height: 259px;
+.main-content article p{
+  font-size: 17px;
+  color: #000;
+  font-weight: 300;
 }
 
-
-
-/* RESPONSIVE DISPLAYS */
-
-/* MOBILE */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-    
-
-    /* CONTEÚDO */
-
-  
-    /* FOOTER */
-    
-  }
-  
-  /* TABLET */
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    
-
-    /* CONTEÚDO */
-
-
-  
-    /* FOOTER */
-   
-  }
-  
-  /* LAPTOP */
-  @media only screen and (min-width: 769px) and (max-width: 1300px) {
-    
-  }
-
+div.container div:nth-child(2) {
+  padding: 100px 0;
+}
