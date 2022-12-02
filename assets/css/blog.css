@@ -1,56 +1,97 @@
-article.topo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-right: 160px;
-  padding: 50px 0;
+.topo {
+    display: flex;
+}
+.topo .conteudo-topo {
+    padding: 122px 74px 162px 239px;
+}
+.topo .conteudo-topo h1 {
+    color: #009688;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+    width: 461px;
+    padding-bottom: 40px;
+}
+.topo .conteudo-topo p {
+    color: #000;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    width: 461px;   
+}
+.topo div img {
+    width: 405px;
+    padding-top: 48px;
 }
 
-article.topo .content-topo {
-  margin-right: 312px;
+.segunda {
+    background-color: #e5e5e5;
+    padding-bottom: 170px;
+}
+.conteudo-segunda {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px 0px;
+}
+.conteudo-segunda article {
+    padding-right: 90px;
+}
+.conteudo-segunda article h2 {
+    color: #FF4081;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    padding: 19px 0px 19px 0px;
+}
+.conteudo-segunda article p {
+    color: #000;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    width: 516px;
+    
+}
+.conteudo-segunda article img {
+    width: 518px;
+    height: 259px;
+}
+.conteudo-segunda article a {
+    text-decoration: none;
+}
+/* RESPONSIVE DISPLAYS */
+
+/* MOBILE */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+
+    /* CONTEÚDO */
+   
+    
+  }
+  
+  /* TABLET */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    
+
+    /* CONTEÚDO */
+
+
+   
+  }
+  
+  /* LAPTOP */
+
+  @media only screen and (min-width: 769px) and (max-width: 1140px) {
+
+    /* CONTEÚDO */
+
 }
 
-article.topo h1{
-  color: #009688;
-  font-size: 47px;
-  font-weight: 700;
-}
+  @media only screen and (min-width: 1141px) and (max-width: 1279px) {
 
-article.topo p{
-  font-size: 20px;
-  color: #000;
-  font-weight: 300;
-  padding-top: 40px;
-}
+    /* CONTEÚDO */
+    .topo {
+        display: flex;
+    }
 
-#second {
-  background-color: #e5e5e5;
-  padding: 110px 0;
-}
-
-.main-content {
-  display: flex;
-  justify-content: space-between;
-  background-color: 
-}
-
-.main-content article {
-  width: 518px;
-}
-
-.main-content article h2{
-  font-size: 30px;
-  color: #FF4081;
-  font-weight: 400;
-  padding: 20px 0;
-}
-
-.main-content article p{
-  font-size: 17px;
-  color: #000;
-  font-weight: 300;
-}
-
-div.container div:nth-child(2) {
-  padding: 100px 0;
 }
