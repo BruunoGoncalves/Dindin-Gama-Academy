@@ -1,205 +1,191 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
-
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-html {
-  width: 100vw;
-}
-
-body {
-  margin: 0;
-  width: 100%;
-  background: #fff;
-  font-family: "Ubuntu", sans-serif;
-}
-
-
-/* INICIO DO MAIN */
-
-main {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.main-description {
-  padding: 80px 0;
-  /* width: 60%; */
+section.top-content { 
   display: flex;
   align-items: center;
-  gap: 2rem;
-  max-width: 1280px;
+  padding: 80px 400px;
 }
 
-.courses-container {
-  padding: 75px 20px;
-  height: 1000px;
-  background: #f7f7f7;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+div.content-section {
+  padding-right: 240px;
 }
 
-h1,
-h2 {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  color: #ff4081;
-}
-
-h1 {
-  margin-bottom: 22px;
+div.content-section h1 {
   font-size: 55px;
+  color: #FF4081;
+  font-weight: 700;
   line-height: 63px;
 }
 
-p {
-  font-weight: 300;
+div.content-section p {
   font-size: 20px;
+  color: #000;
+  font-weight: 300;
   line-height: 23px;
+  padding-top: 20px;
+}
+
+section.second-content { 
+  background-color: #F6F6F6;
+}
+
+section.second-content div article { 
   display: flex;
   align-items: center;
-  color: #000000;
+  padding: 75px 0;
 }
 
-.square {
-  width: 40%;
-  height: 260px;
-  border: 1px #8e8e8e solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 40px;
+article.second-content-section div img {
+  padding: 0 75px;
 }
 
-article.article {
-  display: flex;
-  align-items: center;
-  padding: 40px 0;
+article.second-content-section h2 {
+  color: #FF4081;
+  font-size: 35px;
+  font-weight: 700;
 }
 
-.content-preview {
-  width: 50%;
+article.second-content-section p {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 20px 200px 0 0;
 }
 
-.content-preview h2 {
-  margin-bottom: 1rem;
+article.second-content-section:nth-child(2){
+  border-top: 3px solid #C4C4C4;
+  border-bottom: 3px solid #C4C4C4;
 }
 
 /* RESPONSIVE DISPLAYS */
 
 /* MOBILE */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  /* ONE SECTION */
-
-  .main-description {
+  section.top-content {
     padding: 40px 20px;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
     flex-direction: column-reverse;
   }
-
-  .courses-container {
-    padding: 0px 20px;
-    height: 100%;
-    background: #f7f7f7;
-    display: flex;
-    justify-content: center;
+  div.content-section {
+    padding: 0;
+  }
+  div.img-content img {
+    width: 100%;
+  }
+  div.content-section h1 {
+    font-size: 35px;
+    line-height: 37px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  div.content-section p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
   }
 
-  article.article {
-    display: flex;
-    align-items: center;
-    padding: 40px 0;
+  section.second-content {
+    padding: 0 20px;
+  }
+
+  section.second-content div {
+    padding: 0px;
+  }
+  section.second-content div article {
     flex-direction: column;
+    padding: 40px 0;
   }
-
-  .square {
-    margin-right: 0;
-    margin-bottom: 20px;
-    height: 160px;
-
+  article.second-content-section div img {
+    padding: 0;
+    width: 100%;
   }
-
+  article.second-content-section p {
+    padding: 10px 0;
+    font-size: 16px;
+    text-align: center;
+  }
+  article.second-content-section h2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0;
+  }
 }
 
 /* TABLET */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  /* ONE SECTION */
-
-  .main-description {
+  section.top-content {
     padding: 40px 20px;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
     flex-direction: column-reverse;
   }
-
-  .courses-container {
-    padding: 0px 20px;
-    height: 100%;
-    background: #f7f7f7;
-    display: flex;
-    justify-content: center;
+  div.content-section {
+    padding: 0;
+  }
+  div.img-content img {
+    width: 100%;
+  }
+  div.content-section h1 {
+    font-size: 35px;
+    line-height: 37px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  div.content-section p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
   }
 
-  article.article {
-    display: flex;
-    align-items: center;
-    padding: 40px 0;
+  section.second-content {
+    padding: 0 20px;
+  }
+
+  section.second-content div {
+    padding: 0px;
+  }
+  section.second-content div article {
     flex-direction: column;
+    padding: 40px 0;
   }
-
-  .square {
-    margin-right: 0;
-    margin-bottom: 20px;
-    height: 160px;
-
+  article.second-content-section div img {
+    padding: 0;
+    width: 100%;
   }
-
+  article.second-content-section p {
+    padding: 10px 0;
+    font-size: 16px;
+    text-align: center;
+  }
+  article.second-content-section h2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0;
+  }
 }
 
 /* LAPTOP */
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
-  /* ONE SECTION */
-
-  .main-description {
+  section.top-content {
     padding: 40px 20px;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    flex-direction: column-reverse;
+  }
+  div.content-section {
+    padding: 0;
+  }
+  div.content-section h1 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  div.content-section p {
+    font-size: 16px;
+    line-height: 20px;
   }
 
-  .courses-container {
-    padding: 0px 20px;
-    height: 100%;
-    background: #f7f7f7;
-    display: flex;
-    justify-content: center;
+  section.second-content div {
+    padding: 40px 20px;
   }
-
-  article.article {
-    display: flex;
-    align-items: center;
-    padding: 40px 0;
-
+  section.second-content div article {
+    padding: 0;
   }
-
-  .square {
-    margin-right: 20px;
-    margin-bottom: 0px;
-    height: 160px;
-
+  article.second-content-section div img {
+    padding: 0;
   }
-
+  article.second-content-section p {
+    font-size: 16px;
+    padding: 5px 0;
+  }
 }
