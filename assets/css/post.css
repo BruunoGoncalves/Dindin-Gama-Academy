@@ -1,0 +1,218 @@
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 125px 0;
+}
+section.light-gray {
+    background-color: #F6F6F6;
+    padding: 115px 0;
+}
+
+.content-article {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h3 {
+    color: #FF4081;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 45px;   
+}
+
+main section .start-now a {
+    color: #FFF;
+    font-size: 20px;
+    padding: 15px 50px;
+    background-color: #FF4081;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 25px;
+    transition: all .5s;
+}
+
+section.light-gray p.space {
+    color: #000;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 25px 30px 50px 30px;
+}
+
+.content-article article img {
+    height: 272px;
+}
+
+h2 {
+    color: #009688;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #9D9D9D;
+}
+
+.title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #FF4081;
+    width: 100%;
+    height: 57px;
+    padding-top: 35px;
+    padding-left: 270px;
+}
+
+.title2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #FF4081;
+    width: 100%;
+    height: 57px;
+    padding-top: 35px;
+    padding-left: 320px;
+}
+
+.subtitle {
+    padding-left: 560px;
+}
+
+p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'kern' off;
+
+color: #000000;
+}
+
+/* RESPONSIVE DISPLAYS */
+
+/* MOBILE */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* ONE SECTION */
+  
+    .main-description {
+      padding: 40px 20px;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      flex-direction: column-reverse;
+    }
+  
+    .courses-container {
+      padding: 0px 20px;
+      height: 100%;
+      background: #f7f7f7;
+      display: flex;
+      justify-content: center;
+    }
+  
+    article.article {
+      display: flex;
+      align-items: center;
+      padding: 40px 0;
+      flex-direction: column;
+    }
+  
+    .square {
+      margin-right: 0;
+      margin-bottom: 20px;
+      height: 160px;
+  
+    }
+  
+  }
+  
+  /* TABLET */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* ONE SECTION */
+  
+    .main-description {
+      padding: 40px 20px;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      flex-direction: column-reverse;
+    }
+  
+    .courses-container {
+      padding: 0px 20px;
+      height: 100%;
+      background: #f7f7f7;
+      display: flex;
+      justify-content: center;
+    }
+  
+    article.article {
+      display: flex;
+      align-items: center;
+      padding: 40px 0;
+      flex-direction: column;
+    }
+  
+    .square {
+      margin-right: 0;
+      margin-bottom: 20px;
+      height: 160px;
+  
+    }
+  
+  }
+  
+  /* LAPTOP */
+  @media only screen and (min-width: 769px) and (max-width: 1279px) {
+    /* ONE SECTION */
+  
+    .main-description {
+      padding: 40px 20px;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      flex-direction: column-reverse;
+    }
+  
+    .courses-container {
+      padding: 0px 20px;
+      height: 100%;
+      background: #f7f7f7;
+      display: flex;
+      justify-content: center;
+    }
+  
+    article.article {
+      display: flex;
+      align-items: center;
+      padding: 40px 0;
+  
+    }
+  
+    .square {
+      margin-right: 20px;
+      margin-bottom: 0px;
+      height: 160px;
+  
+    }
+  
+  }
